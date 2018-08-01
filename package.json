@@ -3,9 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "es6-object-assign": "^1.1.0",
+    "es6-promise": "^4.2.4",
+    "isomorphic-fetch": "^2.2.1",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "react-scroll": "^1.7.10",
+    "react-stickynode": "^2.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -14,7 +19,7 @@
     "eject": "react-scripts eject"
   },
   "description": "Mike and Megan's Wedding Website",
-  "main": "index.js",
+  "main": "main.js",
   "repository": "https://github.com/iggy788/wedding-website.git",
   "author": "Mike Ignaczak",
   "license": "MIT"
