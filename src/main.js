@@ -1,9 +1,6 @@
 /**
  * Main entry point for the client application.
  */
-
-'use strict';
-
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Sticky from 'react-stickynode';

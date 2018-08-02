@@ -3,9 +3,6 @@
  *
  * id (string): Identifier for the element
  */
-
-'use strict';
-
 import React from 'react';
 
 class TitleBar extends React.Component {

@@ -1,9 +1,6 @@
 /**
  * Exports a client for the API exposed by the server.
  */
-
-'use strict';
-
 require('es6-promise').polyfill();
 require('isomorphic-fetch');
 
@@ -15,7 +12,7 @@ class APIClient {
 
     /**
      * Submits a new RSVP request to the server. Does not require any authentication.
-     * 
+     *
      * @param guest (required) - JSON
      * @param willAttend (required) - boolean
      * @param guestPlusOne (optional) - JSON object

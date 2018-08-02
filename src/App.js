@@ -1,8 +1,6 @@
 /**
  * Main entry point for the client application.
  */
-
-'use strict';
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import Sticky from 'react-stickynode';
@@ -12,7 +10,6 @@ import SecretTooltip from './components/SecretTooltip.component';
 import TitleBar from './components/TitleBar.component';
 import TopicContainer from './components/TopicContainer.component';
 import './App.css';
-import logo from './logo.svg';
 /**
  * Done Importing Components
  */
@@ -319,3 +316,4 @@ class App extends Component {
 }
 
 export default App;
+// ReactDOM.render(websiteContent, document.getElementById('content'));

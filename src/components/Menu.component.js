@@ -5,9 +5,6 @@
  * items: [ { label: string,            // The text to show on the menu
  *            href: string, }, ... ]    // Href to use for the entry
  */
-
-'use strict';
-
 import React from 'react';
 import Scroll from 'react-scroll';
 

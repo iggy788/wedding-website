@@ -5,9 +5,6 @@
  * title (string): Title of the topic
  * children: The content of the topic
  */
-
-'use strict';
-
 import React from 'react';
 
 class TopicContainer extends React.Component {

@@ -2,9 +2,6 @@
  * Implements a tooltip, which does not contain the text it is about to show, but instead generates from a function, on mouse
  * hover time. This is useful for cases where one doesn't want the tooltip's content to be easily accessible to crawlers.
  */
-
-'use strict';
-
 import React from 'react';
 
 class SecretTooltip extends React.Component {
@@ -16,8 +13,8 @@ class SecretTooltip extends React.Component {
     }
 
     onMouseEnter() {
-        this.state.tooltipText = this.props.fnTooltip();
         this.setState(this.state);
+        this.state.tooltipText = this.props.fnTooltip();
     }
 
     onMouseLeave() {

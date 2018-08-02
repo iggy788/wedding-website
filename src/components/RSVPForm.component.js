@@ -1,11 +1,8 @@
 /**
  * Implements the reservation form wizard and interaction with the server.
- * 
+ *
  * id (string): Identifier for the element
  */
-
-'use strict';
-
 import APIClient from '../api/api-client';
 import isEmail from 'validator/lib/isEmail';
 import React from 'react';
@@ -242,7 +239,7 @@ class RSVPForm extends React.Component {
     /**
      * Renders a text input with a label and the specified set of options. Gets its state and
      * updates the specified @stateObj.
-     * 
+     *
      * The format of the options is an array of JSON objects with the following properties:
      *  label - Label of the option
      *  value - Value of the option to be set on the @stateObj
