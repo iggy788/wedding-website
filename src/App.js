@@ -5,11 +5,12 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import Sticky from 'react-stickynode';
 import Menu from './components/Menu.component';
-import RSVPForm from './components/RSVPForm.component';
+// import RSVPForm from './components/RSVPForm.component';
 import SecretTooltip from './components/SecretTooltip.component';
 import TitleBar from './components/TitleBar.component';
 import TopicContainer from './components/TopicContainer.component';
-import './App.css';
+import './assets/css/style.css';
+import './assets/img/proposal.jpg';
 /**
  * Done Importing Components
  */
@@ -25,7 +26,6 @@ class App extends Component {
           <Menu id="menu"
             items={[{ label: 'THE BRIDE & GROOM', href: 'brideandgroom' },
                 { label: 'THE WEDDING', href: 'wedding' },
-                { label: 'RSVP', href: 'rsvp' },
                 { label: 'LOGISTICS', href: 'logistics' },
                 { label: 'THINGS TO DO', href: 'thingstodo' },
               { label: 'GIFTS', href: 'gifts' }]}>
@@ -54,7 +54,7 @@ class App extends Component {
           <hr />
 
           <p>
-            <img className="large-image" src="img/proposal.jpg" alt="Kal Proposing To Jocelyn" />
+            <img className="large-image" src="./assets/img/proposal.jpg" alt="Kal Proposing To Jocelyn" />
           </p>
 
           <h2>OUR STORY</h2>
@@ -130,10 +130,7 @@ class App extends Component {
       </p>
         </TopicContainer>
 
-        <TopicContainer id="rsvp" title="RSVP">
-      <RSVPForm>
-      </RSVPForm>
-        </TopicContainer>
+
 
         <TopicContainer id="logistics" title="Logistics">
       <p>We understand that going to a different country to attend a wedding can be a daunting experience. That's why in this section
