@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang='en'>
 
 <head>
     <meta charset="utf-8">
@@ -14,7 +15,24 @@
 
     <base target="_blank">
 
-    <script async src='https://www.google-analytics.com/analytics.js'></script>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KFWTN62');
+    </script>
+    <!-- End Google Tag Manager -->
 </head>
 
 <body>
@@ -23,13 +41,18 @@
             <p>You are using a very old browser. This site requires Internet Explorer 9 or newer.</p>
         </div>
     <![endif]-->
-
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KFWTN62" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <div id="content"></div>
 
     <script src="js/bundle.js"></script>
 
     <div class="credits">
-        Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from&nbsp;
+        Icons made by
+        <a href="http://www.freepik.com" title="Freepik">Freepik</a> from&nbsp;
         <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by&nbsp;
         <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0"> CC 3.0 BY</a>
     </div>

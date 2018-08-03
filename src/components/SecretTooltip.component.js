@@ -13,8 +13,8 @@ class SecretTooltip extends React.Component {
     }
 
     onMouseEnter() {
+        this.setState.tooltipText(this.props.fnTooltip());
         this.setState(this.state);
-        this.state.tooltipText = this.props.fnTooltip();
     }
 
     onMouseLeave() {
