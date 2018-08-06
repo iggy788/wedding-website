@@ -14,18 +14,18 @@ import './assets/css/style.css';
 /**
  * Importing Images
  */
-import megan from './assets/img/jocelyn-baby.jpg';
-import mike from './assets/img/kal-baby.jpg';
-import location from './assets/img/svetimarak.jpg';
+import megan from './assets/img/megan-baby.jpg';
+import mike from './assets/img/mike-baby.jpg';
+import church from './assets/img/church.jpg';
 import proposal from './assets/img/proposal.jpg';
-import bonjlesbainsbeachclub from './assets/img/bonjlesbainsbeachclub.jpg';
 import citymap from './assets/img/city-hvar-map.jpg';
+import journeyman from './assets/img/location.jpg';
 import hvar from './assets/img/hvar.jpg';
-import mljet from './assets/img/mljet.jpg';
-import lake from './assets/img/plitvice-lakes.jpg';
+import mljet from './assets/img/save.jpg';
+import lake from './assets/img/lake.jpg';
 import ferry from './assets/img/split-ferry-ticket-kiosk.jpg';
 import dubrovnik from './assets/img/dubrovnik.jpg';
-import car from './assets/img/hvar-rental-car.jpg';
+import car from './assets/img/friends.jpg';
 /**
  * Done Importing Components
  */
@@ -82,9 +82,9 @@ class App extends Component {
           <div className='container'>
             <div className='one-half column'>
               <h2>CEREMONY</h2>
-              <p>16:45 @ Sveti Marak Church Courtyard</p>
+              <p>16:45 @ St Mary of the Lake Church</p>
               <p>
-                <a href='.assets/img/svetimarak.jpg'><img src={location} className='location-image' alt='Sveti Marak (St Marks)' /></a>
+                <a href='./assets/img/church.jpg'><img src={church} className='location-image' alt='St Mary of the Lake Church' /></a>
               </p>
               <p style={{ textAlign: 'center' }}>
                 <a href='img/city-hvar-map.jpg'>Tourist Map</a>
@@ -96,9 +96,9 @@ class App extends Component {
         </div>
         <div className='one-half column'>
           <h2>RECEPTION</h2>
-          <p>18:15 @ Bonj les Bains Beach Club</p>
+          <p>18:15 @ Journeyman Distillery</p>
           <p>
-            <a href='img/bonjlesbainsbeachclub.jpg'><img className='location-image' src={bonjlesbainsbeachclub} alt='Bonj Les Bains Beach Club' /></a>
+            <a href='./assets/img/location.jpg'><img className='location-image' src={journeyman} alt='Journeyman Distillery' /></a>
           </p>
           <p style={{textAlign: 'center'}}>
             <a href='https://goo.gl/maps/MGBa94iBaA42'>Google Maps</a> | <a src={citymap}>Tourist Map</a>
@@ -156,7 +156,7 @@ class App extends Component {
 
       <hr />
 
-      <h2>GETTING TO CROATIA</h2>
+      <h2>GETTING TO NEW BUFFALO, MI</h2>
       <p>Being a popular summer tourist destination, getting to Croatia is relatively easy. The closest major city to Hvar is&nbsp;
          <a href='https://goo.gl/maps/a8JeWAEuugN2'>Split</a> and it is fairly well connected by pretty much all European airlines
          and some low-cost carriers, such as&nbsp;
