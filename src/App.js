@@ -18,13 +18,11 @@ import megan from './assets/img/megan-baby.jpg';
 import mike from './assets/img/mike-baby.jpg';
 import church from './assets/img/church.jpg';
 import proposal from './assets/img/proposal.jpg';
-import citymap from './assets/img/city-hvar-map.jpg';
+import citymap from './assets/img/three-oaks-map.jpg';
 import journeyman from './assets/img/location.jpg';
-import hvar from './assets/img/hvar.jpg';
-import mljet from './assets/img/save.jpg';
+import save from './assets/img/save.jpg';
+import lakemich from './assets/img/lake-mich.jpg';
 import lake from './assets/img/lake.jpg';
-import ferry from './assets/img/split-ferry-ticket-kiosk.jpg';
-import dubrovnik from './assets/img/dubrovnik.jpg';
 import car from './assets/img/friends.jpg';
 /**
  * Done Importing Components
@@ -52,29 +50,32 @@ class App extends Component {
             <div className='row'>
               <div className='one-half column'>
                 <p>
-                  <a href='./assets/img/jocelyn-baby.jpg'><img src={megan} className='thumbnail' alt='Jocelyn' />
+                  <a href='./assets/img/megan-baby.jpg'><img src={megan} className='thumbnail' alt='Megan' />
                   </a>
-                  Jocelyn is a sweet and giving girl who always sees the beauty in people. As exciting as it was to be raised in New York, she made it her mission to live and explore as many beautiful cities as she could. Thanks to her beloved sister Wendy it was possible to jump from the neon nights of Miami, through the diverse city of London, to then learn the leisurely ways of Italy. While Jocelyn was exploring and realizing her passion in life, she realized she needed to find her way back to the city she knew her dream job was waiting for her in fashion.
+                  Megan is a sweet and giving girl who always sees the beauty in people. As exciting as it was to be raised in Novi, MI. She made it her mission to live and explore as many beautiful cities as she could. Thanks to her beloved sister Wendy it was possible to jump from the neon nights of Miami, through the diverse city of London, to then learn the leisurely ways of Italy. While Jocelyn was exploring and realizing her passion in life, she realized she needed to find her way back to the city she knew her dream job was waiting for her in fashion.
                   </p>
               </div>
 
               <div className='one-half column'>
                 <p>
-                  <a href='img/kal-baby.jpg'><img className='thumbnail' src={mike} alt='Kal' /></a>
-                  Kal is a burly and impatient Eastern European. He moved from his homeland Bulgaria to the lovely city of Toronto at the young and tender age of 22. Kal then found himself in the IT mecca of Seattle and realized after 9 years of the beautiful mountain backdrop and serene lakes that he needs to escape to the center of the universe, New York.
+                  <a href='./assets/img/mike-baby.jpg'><img className='thumbnail' src={mike} alt='Mike' /></a>
+                  Mike is a burly and impatient Eastern European. He moved from his homeland Bulgaria to the lovely city of Toronto at the young and tender age of 22. Kal then found himself in the IT mecca of Seattle and realized after 9 years of the beautiful mountain backdrop and serene lakes that he needs to escape to the center of the universe, New York.
                   </p>
               </div>
             </div>
           </div>
           <hr />
 
-          <p>
-            <img src={proposal} className='large-image' alt='Kal Proposing To Jocelyn' />
-          </p>
 
           <h2>OUR STORY</h2>
           <p>
-            Being children of the modern day and age, our story began with venturing onto OK Cupid. As hesitant as one of us was to engage herself with a complete stranger online (while the other happily explored with enthusiasm) on our first date it soon became apparent that we met the natural occurrences when 2 people meet and all feelings of the unknown disappeared because at that moment right in front of me I was meeting my best friend. As the cliche tale goes, the rest is history.
+          It all started when Mike had a brainstorm and asked Megan if she would be willing to run the Chicago Marathon with him in the upcoming fall of 2017.  He then had another brainstorm and thought it was good idea to go hiking in Banff National Park in Alberta, Canada immediately after running 26.2 miles.  Somehow Mike was able to convince Megan that this was a good idea and his plan was in motion.
+          </p>
+          <p>
+          After completing the Chicago Marathon which was one of the hardest journeys of their lives they immediately took off on a flight to Canada that would change their lives forever.On the very last day of their vacation, Megan and Mike went on a 5 mile hike on the Johnston Canyon and the hike ended with canyon opening up to a huge meadow surrounded by pools of water that change colors throughout the day.  After making sure they were the only two people in the canyon valley, Mike nervously set up his iPhone to properly capture the moment.  As Megan strangley watched Mike, he got down on one knee and asked Megan to spend the rest of her life with him!
+          </p>
+          <p>
+            <img src={proposal} className='large-image' alt='Mike Proposing To Megan' />
           </p>
         </TopicContainer>
 
@@ -82,12 +83,11 @@ class App extends Component {
           <div className='container'>
             <div className='one-half column'>
               <h2>CEREMONY</h2>
-              <p>16:45 @ St Mary of the Lake Church</p>
+              <p>2:00 PM @ St Mary of the Lake Church</p>
               <p>
                 <a href='./assets/img/church.jpg'><img src={church} className='location-image' alt='St Mary of the Lake Church' /></a>
               </p>
               <p style={{ textAlign: 'center' }}>
-                <a href='img/city-hvar-map.jpg'>Tourist Map</a>
           </p>
           <p>Located to the left of the Loggia and Clock Tower (the Town Hall) and behind the market and row of shops at the back of the
              harbour. Follow signs to the Hotel Park and continue past the café until you arrive at the Church. Also have a look at the
@@ -96,31 +96,32 @@ class App extends Component {
         </div>
         <div className='one-half column'>
           <h2>RECEPTION</h2>
-          <p>18:15 @ Journeyman Distillery</p>
+          <p>6:00 PM @ Journeyman Distillery</p>
           <p>
             <a href='./assets/img/location.jpg'><img className='location-image' src={journeyman} alt='Journeyman Distillery' /></a>
+            </p>
+              <p style={{ textAlign: 'center' }}>
+            </p>
+          <p> Located in Three Oaks, Michigan which is about a 10 minute drive from the Indiana and Michigan state line.Journeyman Distillery boasts some of the most unique & flavorful spirts in the Midwest.  You will be treated from a farm to table meal and be able to try all the unique spirts that Journeyman has to offer.
           </p>
+          </div>
           <p style={{textAlign: 'center'}}>
-            <a href='https://goo.gl/maps/MGBa94iBaA42'>Google Maps</a> | <a src={citymap}>Tourist Map</a>
-          </p>
-          <p>Located a 10 minute walk from Sveti Marak and there will be someone to lead the way. Ladies, please bear in mind that the walk
-             is over a cobbled path, which would not be comfortable if wearing heels, so you might consider bringing a pair of flats for the
-             trek.
-          </p>
+              <a href='https://goo.gl/maps/695coch7gdM2'>Google Maps</a>
+              </p>
+            <p style={{ textAlign: 'center' }}>
+              <a href='./assets/img/three-oaks-map.jpg'><img src={citymap} alt='Tourist Map' /></a>
+              </p>
         </div>
-      </div>
 
       <hr />
 
       <h2>ON THE WEDDING DAY</h2>
-      <p>The ceremony will start at 17:00 at the Sveti Marak church courtyard. Please arrive 10 to 15 minutes before so everybody can get
-         seated and so we can start on time.
+      <p>The ceremony will start at 2:00 PM at the St. Mary of the Lake Church. Please arrive 10 to 15 minutes before so everybody can get seated and so we can start on time.
       </p>
-      <p>After the ceremony we will raise a glass of champagne and someone will lead you to the reception where drinks and appetizers will
-         be served.
+      <p>After the ceremony we will raise a glass of champagne and someone will lead you to the reception where drinks and appetizers will be served.
       </p>
       <p>
-        Wedding attire is summer formal. Gentlemen, please wear a light suit with which you will be comfortable with the heat. And ladies,
+        Wedding attire is S pring formal. Gentlemen, please wear a light suit with which you will be comfortable with the heat. And ladies,
         you look pretty as you are, in your formal summer dresses
       </p>
 
@@ -135,7 +136,7 @@ class App extends Component {
 
       <hr />
 
-      <h2>DAY AFTER THE WEDDING (1 September)</h2>
+      <h2>DAY AFTER THE WEDDING (27 May)</h2>
       <p>Farewell brunch will be held at 11:00 at the&nbsp;
          <a href='http://www.suncanihvar.com/amfora-hvar-grand-beach-resort/maestral-balkan-grill.html'>Maestral Restaurant</a>. It is located
          just a few meters on the path that takes you to the <a href='https://goo.gl/r9TFHt'>wedding venue</a>.
@@ -148,10 +149,7 @@ class App extends Component {
 
 
         <TopicContainer id='logistics' title='Logistics'>
-      <p>We understand that going to a different country to attend a wedding can be a daunting experience. That's why in this section
-         we have tried to compile information and links to help make your travel and hotel booking as simple as possible and to give
-         you ideas for how to make a complete vacation out of your trip. Please read through it and if you feel you need any additional
-         information or help, do not hesitate to contact us.
+      <p>We understand that going to a different State on a Holiday Weekend to attend a wedding can be a daunting experience. That's why in this section we have tried to compile information and links to help make your travel and hotel booking as simple as possible and to give you ideas for how to make a complete vacation out of your trip. Please read through it and if you feel you need any additional information or help, do not hesitate to contact us.
       </p>
 
       <hr />
@@ -176,15 +174,11 @@ class App extends Component {
       <hr />
 
       <p>
-        <img className='large-image' src={hvar} alt='Hvar town' />
+        <img className='large-image' src={lakemich} alt='Hvar town' />
       </p>
 
-      <h2>FERRY TO THE ISLAND OF HVAR</h2>
-      <p>The Split airport is located about 25km (16mi) from the harbour from where the ferries leave for Hvar. According to the bus
-         company's <a href='http://www.buscroatia.com/airport-split/'>website</a> a taxi should cost about 35 EUR/40 USD for 1-3 people
-         while the bus costs around 4 EUR/5 USD per person. Unless you are in a real hurry to catch a ferry, we recommend taking the
-         bus. They are big white coaches just a few steps to the left after you exit though the main airport entrance and we found them
-         to be very comfortable and convenient. They accept both cash and credit card for payment.
+      <h2>HARBOR COUNTRY in MICHIGAN</h2>
+      <p>Harbor Country is close by, yet a world away. It is a trademarked destination for an eclectic collection of 8 towns: Michiana, Grand Beach, New Buffalo, Three Oaks, Union Pier, Lakeside, Harbert, and Sawyer <a href='https://www.harborcountry.org/'>website.</a> Harbor Country combines the best of both worlds — endless days at the beach and countrysides brimming with farms and orchards. Add a vibrant arts and culture community, a lively local food scene, and an explosion of world-class wineries, craft breweries and distilleries, it’s no wonder that Harbor Country has also become a year-round home for ex-urbanites in search of a slower pace of life amid the natural beauty of the Lake Michigan shore.
       </p>
 
       <div id='gmap'></div>
@@ -194,7 +188,7 @@ class App extends Component {
          from the large electronic panel infront of it, listing the departures. The ferry ticket kiosk looks like this:
       </p>
       <p>
-         <img className='large-image' src={ferry} alt='Ferry tickets kiosk' />
+         <img className='large-image' src={save} alt='Ferry tickets kiosk' />
       </p>
 
       <p>Once you are at the seaport and looking for transportation to the island, please note that there are two landing spots on the
@@ -264,17 +258,14 @@ class App extends Component {
       </p>
         </TopicContainer>
 
-        <TopicContainer id='thingstodo' title='Things to do in Croatia'>
-      <p>Since all of you are coming from different parts of the world, we presume that you would like to make a full vacation out of your
-         trip to Croatia. In this section we are listing some of the main tourist places to visit and have suggestions for routes to take.
-         As a disclaimer, some of these suggestions are compiled from various online sources such as Lonely Planet and not locations we
-         have actually visited, but trust us - they are awesome
+        <TopicContainer id='thingstodo' title='Things to do Near Three Oaks, MI'>
+      <p> Since all of you are coming from different parts of the Midwest, we presume that you would like to take full advantage and experience the "Lake Effect" and dig in the sand anywhere along the 200 - mile stretch of Lake Michigan Beaches.In this section we are listing some of the main tourist places to visit and have suggestions for routes to take. As a disclaimer, some of these suggestions are compiled from various online sources not locations we have actually visited, but trust us - these are all awesome options if you wanted to spend Memorial Day Weekend relaxing in Michigan's Beachtowns before our Big Day!
       </p>
       <br />
 
-      <h2><a href='https://www.lonelyplanet.com/croatia/dubrovnik'>DUBROVNIK</a></h2>
+      <h2><a href='https://www.michigan.org/hot-spots/beachtowns'>MICHIGAN BEACHTOWNS</a></h2>
       <p>
-        <img className='large-image' src={dubrovnik} alt='Dubrovnik old city' />
+        <img className='large-image' src={lakemich} alt='Dubrovnik old city' />
       </p>
       <p>Located in the very south of the country, Dubrovnik was once called the 'Pearl of the Adriatic' for its architecture and importance
          in trade. We won't pretend that we know much about its history, but it is a place which must be visited and is also a convenient
@@ -285,7 +276,7 @@ class App extends Component {
       </p>
       <br />
 
-      <h2><a href='https://www.lonelyplanet.com/croatia/plitvice-lakes-national-park/attractions/plitvice-lakes-national-park/a/poi-sig/1019024/1318903'>PLITVICE LAKES</a></h2>
+      <h2><a href='https://www.michigan.org/sites/default/files/styles/15_6_desktop/public/beach.18.ss_.glory_.Stand%20Up%20Paddleboarding.jpg?itok=emZOJ4RR&amp;timestamp=1523039298'>LAKE MICHIGAN</a></h2>
       <p>
         <img className='large-image' src={lake} alt='Plitvice lakes' />
       </p>
@@ -297,7 +288,7 @@ class App extends Component {
 
       <h2><a href='https://www.lonelyplanet.com/croatia/dalmatia/hvar-island'>HVAR AND THE DALMATIAN ISLANDS</a></h2>
       <p>
-        <img className='large-image' src={mljet} alt='Mljet' />
+        <img className='large-image' src={lakemich} alt='Mljet' />
       </p>
       <p>The Dalmatian islands (one of which is Hvar) offer amazing scenery, nice beaches and sailing opportunities. Island hopping, swimming and
          sunbathing is great way to spend a few days or even a week. Of these islands, Hvar is deemed as the 'party island' while&nbsp;
