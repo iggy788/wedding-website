@@ -288,7 +288,7 @@ class App extends Component {
 
       <h2><a href='https://www.lonelyplanet.com/croatia/dalmatia/hvar-island'>HVAR AND THE DALMATIAN ISLANDS</a></h2>
       <p>
-        <img className='large-image' src={lakemich} alt='Mljet' />
+        <img className='large-image' src={lakemich} alt='Lake Michigan Paddleboard' />
       </p>
       <p>The Dalmatian islands (one of which is Hvar) offer amazing scenery, nice beaches and sailing opportunities. Island hopping, swimming and
          sunbathing is great way to spend a few days or even a week. Of these islands, Hvar is deemed as the 'party island' while&nbsp;
