@@ -4,7 +4,7 @@
  * id (string): Identifier for the element
  */
 import React from 'react';
-// import logo from '../assets/img/favicon.ico';
+import logo from '../assets/img/favicon.ico';
 
 class TitleBar extends React.Component {
 
@@ -13,8 +13,9 @@ class TitleBar extends React.Component {
             <header id={this.props.id} className="titlebar">
                 { /* Add this Back if Needed
                 <!-- <img src={logo} className="App-logo" alt="logo" /> -->*/ }
+                <img src={logo} className="App-logo" alt="logo" />
                 <span className="bride-name">Megan</span>
-                <span className="groom-name">&nbsp;
+                <span className="groom-name">
                     <span>&amp;</span> Mike
                 </span>
                 <div className="wedding-date">26<sup>th</sup> MAY, 2019</div>
