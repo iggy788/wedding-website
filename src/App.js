@@ -5,7 +5,6 @@ import React, { Component } from 'react';
 import Sticky from 'react-stickynode';
 import Menu from './components/Menu.component';
 // import RSVPForm from './components/RSVPForm.component';
-import SecretTooltip from './components/SecretTooltip.component';
 import TitleBar from './components/TitleBar.component';
 import TopicContainer from './components/TopicContainer.component';
 import './assets/css/normalize.css';
@@ -20,10 +19,7 @@ import church from './assets/img/church.jpg';
 import proposal from './assets/img/proposal.jpg';
 import citymap from './assets/img/three-oaks-map.jpg';
 import journeyman from './assets/img/location.jpg';
-import save from './assets/img/save.jpg';
 import lakemich from './assets/img/lake-mich.jpg';
-import lake from './assets/img/lake.jpg';
-import car from './assets/img/friends.jpg';
 /**
  * Done Importing Components
  */
@@ -140,156 +136,130 @@ class App extends Component {
 
       <hr />
 
-      <h2>GETTING TO NEW BUFFALO, MI</h2>
-      <p>Being a popular summer tourist destination, getting to Croatia is relatively easy. The closest major city to Hvar is&nbsp;
-         <a href='https://goo.gl/maps/a8JeWAEuugN2'>Split</a> and it is fairly well connected by pretty much all European airlines
-         and some low-cost carriers, such as&nbsp;
-         <a href='https://wizzair.com/#/booking/select-flight/LTN/SPU/2017-08-22/2017-09-02/1/0/0'>WizzAir</a> and&nbsp;
-         <a href='https://www.eurowings.com/en.html'>Eurowings</a>
+      <h2>ACCOMMODATIONS NEAR JOURNEYMAN DISTILLERY</h2>
+      <p>Being a popular summer tourist destination, getting to Three Oaks is relatively easy when traveling from Michigan or Illinois. &nbsp;
+         <a href='https://goo.gl/maps/xhf5f65SdEs'>Direction from Chicago to Three Oaks, MI</a> OR &nbsp;
+         <a href='https://goo.gl/maps/aRe5RDT378p'>Directions from Detroit to Three Oaks, MI</a>
       </p>
-      <p>The second closest major airport is in <a href='https://goo.gl/maps/goc5oZWa3wC2'>Dubrovnik</a>. It is about 5 hours away
-         from Hvar via a ferry, which is kind of far, but if you are planning on doing some touring before or after the wedding it is
-         a great location to visit. Have a look at the 'Things to do section' further down for more information on that.
+      <p>We were able to reserve a Hotel Block at <a href='https://www.ihg.com/holidayinnexpress/hotels/us/en/new-buffalo/nbumi/hoteldetail'>Holiday Inn Express & Suites New Buffalo, MI</a>. Which is about 15 minutes drive away from Journeyman Distillery. The hotel was able to do block rate of $150.95 per room (price does not include tax and is based on 1-2 adult occupancy in the rooms) and the cut off date for the block would be March 30, 2019. Check in time starts at 3pm eastern and checkout is 11am eastern. We weren't not able to accommodate early check in for groups. The hotel do offer free WiFi, free hot breakfast buffet, have indoor pool, hot tub and fitness room.  If interested please call <strong>(269) 469-1400</strong> and use the full name of the bride and full name of the groom.
       </p>
-      <p>As of the time of writing there are no&nbsp;
-         <a href='https://www.kayak.com/flights/NYC-SPU/2017-08-25/2017-09-02/2adults'>direct flights</a>&nbsp;
-         from the US or Canada to Croatia, so guests coming from there will have to do at least one connection in a major European hub
-         such as Frankfurt, Zurich or Amsterdam.
-      </p>
-
+      <p>However if you are planning on doing some touring before or after the wedding or just planning a visit to Michigan's Harbor Towns over the long Holiday Weekend we encourage you to book one of the many <a href='https://www.airbnb.com/s/Three-Oaks--MI--United-States/homes?refinement_paths%5B%5D=%2Fhomes&query=Three%20Oaks%2C%20MI%2C%20United%20States&place_id=ChIJCZ-MfiUfEYgRchAXqY2I3-I&allow_override%5B%5D=&s_tag=zLwd_OZY'>Airbnb's</a> or <a href='https://www.yelp.com/search?cflt=bedbreakfast&find_loc=Three+Oaks%2C+MI+49128'>Bed and Breakfast Hotels</a> that are plentiful throughout the area. If you're undecided on what option to choose, have a look at the 'Things to do section' further down for more information for what activities you can do while you're here.
+         </p>
       <hr />
 
-      <p>
-        <img className='large-image' src={lakemich} alt='Hvar town' />
-      </p>
-
-      <h2>HARBOR COUNTRY in MICHIGAN</h2>
-      <p>Harbor Country is close by, yet a world away. It is a trademarked destination for an eclectic collection of 8 towns: Michiana, Grand Beach, New Buffalo, Three Oaks, Union Pier, Lakeside, Harbert, and Sawyer <a href='https://www.harborcountry.org/'>website.</a> Harbor Country combines the best of both worlds — endless days at the beach and countrysides brimming with farms and orchards. Add a vibrant arts and culture community, a lively local food scene, and an explosion of world-class wineries, craft breweries and distilleries, it’s no wonder that Harbor Country has also become a year-round home for ex-urbanites in search of a slower pace of life amid the natural beauty of the Lake Michigan shore.
-      </p>
-
-      <div id='gmap'></div>
-
-      <p>The bus or taxi will drop you off at the Split bus station, which is on the water. The bus drop-off is only 5 minutes walk
-         from the ferry ticket kiosk. There you can buy tickets or ask for the terminal from which your ferry leaves if it is unclear
-         from the large electronic panel infront of it, listing the departures. The ferry ticket kiosk looks like this:
-      </p>
-      <p>
-         <img className='large-image' src={save} alt='Ferry tickets kiosk' />
-      </p>
-
-      <p>Once you are at the seaport and looking for transportation to the island, please note that there are two landing spots on the
-         island - Hvar Town and the Old Town (Stari Grad). The wedding will be in Hvar Town, which is in the south-west end of the island,
-         not in the Old Town, which is on the nortern end. Please make sure you are boarding the right ferry, but even if you make a
-         mistake, stay calm because there is a very convenient bus between the two. As a rule, the car ferries go to Old Town (Stari Grad)
-         and take about 2 hours to travel and the fast passenger ferries (catamaran) go directly to Hvar Town and take 1 hour.
-      </p>
-
-      <div id='gmap'></div>
-
-      <p>There are two ferry companies which serve the route from Split to Hvar - Jadrolinija and Kapetan Luka. Below we have information
-         for each of them.
-      </p>
-
-      <h3><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Jadrolinija</a></h3>
-      <p>This is a high-speed catamaran service from Split to Hvar Town which takes about 65 min. This is the fastest option and costs
-         around 10 EUR/11 USD per person. If you have a car, this site also contains the schedule and pricing for the ferries, which
-         transport cars to the island.
-      </p>
-      <br />
-
-      <h3><a href='http://www.krilo.hr/en/index.html'>Kapetan Luka</a></h3>
-      <p>This is the regular ferry service which takes about 2.5 hours and should cost around 5-10 EUR/6-11 USD per person.
-      </p>
-      <br />
-
-      <h3><a href='https://www.atlantis-marine.net/en/croatia-boat-transfers'>Chartered Speed Boat</a></h3>
-      <p>If you are coming as a group or feel like a one percenter, this site has information for inclusive transportation packages with
-         pickup from the airport. The sailing part of the journey takes between 45 min to 1 hour, which is similar to the catamaran service,
-         but is a little bit more convenient because it also includes a pickup from the airport. If you choose this option, there is a 5%
-         discount using <SecretTooltip fnTooltip={() => { return 'adriaticweddings'; }}>this code</SecretTooltip> (please click on the
-         'this' in order to show it).
-      </p>
-
-      <hr />
-
-      <h2>DRIVING</h2>
-      <p>For those renting a car or driving to Croatia, we found the driving conditions on the island to be good and there is a
-         parking spot right in the center of the town for 1 EUR/hour or 12 EUR/day.
-      </p>
-      <p>
-         Please note that unless you are coming by car to the island of Hvar, there should not be a need for you to rent one. There are
-         many organized boat trips to discover the surrounding Dalmatian islands and cabrio cars can be rented daily at a fairly decent
-         price from Hvar itself and the paperwork is not that much. For example we rented this funny car for about 60 USD for a day trip:
-      </p>
-      <p>
-         <img className='large-image' src={car} alt='Day car rental' />
-      </p>
-
-      <hr />
-
-      <h2>ACCOMMODATIONS</h2>
-      <p>Once on the island in Hvar Town there are various accommodation options ranging from fancy hotels to renting an apartment
-         on <a href='https://goo.gl/uHTDYn'>AirBnB</a>. The wedding will be in the Amfora Resort so any accommodation within walking
-         distance from there should be fine.
-      </p>
-      <p>From our research we have found that hotels are fairly expensive and there are very nice AirBnB options available, so we highly
-         recommend doing that.
-      </p>
-      <p>For guests wishing to stay in a hotel, the <a href='http://www.suncanihvar.com/'>Suncani Hvar</a> chain of hotels offers a 20%
-         discount using <SecretTooltip fnTooltip={() => { return 'WEDDKALOIANJOCELYN'; }}>this code</SecretTooltip> (please click on the
-         'this' in order to show it). The code must be entered in the <i>'Corporate/Promo Code ?'</i> section for the discounted prices to
-         apply and is valid for staying 5 days prior and 5 days after the wedding day. While this code indeed reduces the listed prices,
-         we have found that booking through <a href='https://goo.gl/2xzaIg'>Expedia</a> or <a href='https://goo.gl/z6zsZk'>Hotels.com</a>&nbsp;
-         shows about the same prices or in some cases even cheaper, so please bear that in mind as well.
-      </p>
         </TopicContainer>
 
         <TopicContainer id='thingstodo' title='Things to do Near Three Oaks, MI'>
+        <h2><a href='https://www.michigan.org/hot-spots/beachtowns'>MICHIGAN BEACHTOWNS</a></h2>
       <p> Since all of you are coming from different parts of the Midwest, we presume that you would like to take full advantage and experience the "Lake Effect" and dig in the sand anywhere along the 200 - mile stretch of Lake Michigan Beaches.In this section we are listing some of the main tourist places to visit and have suggestions for routes to take. As a disclaimer, some of these suggestions are compiled from various online sources not locations we have actually visited, but trust us - these are all awesome options if you wanted to spend Memorial Day Weekend relaxing in Michigan's Beachtowns before our Big Day!
       </p>
       <br />
 
-      <h2><a href='https://www.michigan.org/hot-spots/beachtowns'>MICHIGAN BEACHTOWNS</a></h2>
-      <p>
-        <img className='large-image' src={lakemich} alt='Dubrovnik old city' />
-      </p>
-      <p>Located in the very south of the country, Dubrovnik was once called the 'Pearl of the Adriatic' for its architecture and importance
-         in trade. We won't pretend that we know much about its history, but it is a place which must be visited and is also a convenient
-         location to fly into and work your way up the coast to Hvar. On top of that, for the 'Game of Thrones' fans, quite a few scenes from
-         this show were filmed in Dubrovnik. See&nbsp;
-         <a href='http://www.telegraph.co.uk/travel/maps-and-graphics/game-of-thrones-filming-locations-guide/'>this article</a> for more
-         information.
-      </p>
-      <br />
+      <h2><a href='https://www.michigan.org/sites/default/files/styles/15_6_desktop/public/beach.18.ss_.glory_.Stand%20Up%20Paddleboarding.jpg?itok=emZOJ4RR&amp;timestamp=1523039298'>HARBOR COUNTRY in MICHIGAN</a></h2>
 
-      <h2><a href='https://www.michigan.org/sites/default/files/styles/15_6_desktop/public/beach.18.ss_.glory_.Stand%20Up%20Paddleboarding.jpg?itok=emZOJ4RR&amp;timestamp=1523039298'>LAKE MICHIGAN</a></h2>
-      <p>
-        <img className='large-image' src={lake} alt='Plitvice lakes' />
-      </p>
-      <p>This is a beautiful national park covered with heavy forests and waterfalls. It is in the northern half of the country and is about 2 hours
-         drive from Zagreb, the capital of Croatia and 4-5 hours from Split. If you find good flights to Zagreb, Plitvice Lakes can serve as a good
-         midway destination to visit while making you way to the south of the country.
-      </p>
       <br />
-
-      <h2><a href='https://www.lonelyplanet.com/croatia/dalmatia/hvar-island'>HVAR AND THE DALMATIAN ISLANDS</a></h2>
       <p>
         <img className='large-image' src={lakemich} alt='Lake Michigan Paddleboard' />
       </p>
-      <p>The Dalmatian islands (one of which is Hvar) offer amazing scenery, nice beaches and sailing opportunities. Island hopping, swimming and
-         sunbathing is great way to spend a few days or even a week. Of these islands, Hvar is deemed as the 'party island' while&nbsp;
-         <a href='https://www.lonelyplanet.com/croatia/dalmatia/mljet-island'>Mljet</a> is the most scenic and tranquil. It is located between Hvar
-         and Dubrovnik.
+      <p>Harbor Country is close by, yet a world away. It is a trademarked destination for an eclectic collection of 8 towns: Michiana, Grand Beach, New Buffalo, Three Oaks, Union Pier, Lakeside, Harbert, and Sawyer <a href='https://www.harborcountry.org/'>website.</a> Harbor Country combines the best of both worlds — endless days at the beach and countrysides brimming with farms and orchards. Add a vibrant arts and culture community, a lively local food scene, and an explosion of world-class wineries, craft breweries and distilleries, it’s no wonder that Harbor Country has also become a year-round home for ex-urbanites in search of a slower pace of life amid the natural beauty of the Lake Michigan shore.
       </p>
+          <hr />
+
+     <h2>Wineries</h2>
+          <p>
+            <ul>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Round Barn UNION PIER Tasting Room</a></li>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>St. Julian Winery-Union Pier</a></li>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Lemon Creek Winery</a></li>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Shady Creek Winery</a></li>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Hickory Creek Winery</a></li>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Gravity Vineyards and Winery</a></li>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Tabor Hill Champagne Cellar</a></li>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Free Run Cellars</a></li>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Dablon Vineyards - Winery & Tasting Room</a></li>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Black Dragon Meadery @ Promeny</a></li>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Lazy Acre Vineyard</a></li>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Lazy Ballerina Winery Tasting Room</a></li>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Wolfe Creek Winery</a></li>
+            </ul>
+          </p>
+      <hr />
+
+      <h2>Breweries</h2>
+          <p>
+            <ul>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Greenbush Brewing Company</a></li>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Burn 'Em Brewing</a></li>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Beer Church Brewing Co.</a></li>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Shoreline Brewery</a></li>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Watermark Brewing Company</a></li>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Zorn Brew Works Co.</a></li>
+            </ul>
+      </p>
+      <hr />
+
+      <h2>Fruit Picking</h2>
+          <p>
+            <ul>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Stateline Blueberries</a></li>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Williams Orchard</a></li>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Blueberries of Indiana</a></li>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Twin Maple Orchards</a></li>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Shuler Dairy Farms</a></li>
+            </ul>
+      </p>
+          <hr />
+          <h2>Casinos</h2>
+          <p>
+            <ul>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Four Winds Casino</a></li>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Blue Chip Casino Hotel Spa</a></li>
+            </ul>
+      </p>
+          <hr />
+
+      <h2>Beaches & Water Activites</h2>
+          <p>
+            <ul>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Harbor Country Adventures</a></li>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>New Buffalo Public Beach</a></li>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Weko Park</a></li>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Third Coast Paddling Kayaks & Stand-Up Paddleboards</a></li>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Captain Mike's Fun Park</a></li>
+            </ul>
+          </p>
+          <hr />
+
+      <h2>Shopping</h2>
+          <p>
+            <ul>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Antique Mall of Union Pier</a></li>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Harbert Antique Mall</a></li>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Sawyer Antique Mall</a></li>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Lighthouse Place Premium Outlets</a></li>
+            </ul>
+          </p>
+          <hr />
+      <h2>Hiking & Camping</h2>
+          <p>
+            <ul>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Galien River County Park</a></li>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Warren Dunes State Park</a></li>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Kesling Nature Preserve</a></li>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Warren Woods State Park</a></li>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Spicer Lake County Park</a></li>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Mud Lake Bog Nature Preserve</a></li>
+              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>New Buffalo Public Beach</a></li>
+            </ul>
+      </p>
+
+      <hr />
         </TopicContainer>
 
         <TopicContainer id='gifts' title='Gifts'>
       <p>Dear family and friends,</p>
-      <p>We feel honoured that you are all travelling a long way to come and celebrate our special day with us. For this reason we don't
-         want anyone to feel obliged to buy us gifts. Your presence is the biggest gift.
-      </p>
-      <p>If you do feel that you want to give us a gift please remember that just like you, we will only have a suitcase full of clothes
-        so we won't be able to carry any items back.
+          <p>I know locating a couple's wedding registry and worrying about finding the perfect gift can be stressful, trust me we've all been there. For this reason we want to put it all in one spot so please click on this link to access our
+                <a href='https://www.zola.com/registry/michaelandmeganwedding?preview=true'> Registry.</a>
       </p>
       <p>Thank you in advance!
       </p>
