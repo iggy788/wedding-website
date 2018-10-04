@@ -89,10 +89,11 @@ class App extends Component {
               </p>
               <p style={{ textAlign: 'center' }}>
           </p>
-          <p>Located to the left of the Loggia and Clock Tower (the Town Hall) and behind the market and row of shops at the back of the
-             harbour. Follow signs to the Hotel Park and continue past the café until you arrive at the Church. Also have a look at the
-             tourist map above.
+          <p>Located , in New Buffalo, Michigan which is about a 15 minute drive from Journeyman Distillery.  The church is US Highway 12, about 7 blocks west (and south) of the center of town. Also click on the link below to easily find directions to the church.
           </p>
+              <p style={{textAlign: 'center'}}>
+              <a href='https://goo.gl/maps/nY3cvNcVZ8T2'>Get Directions to St Mary of the Lake Church</a>
+              </p>
         </div>
         <div className='one-half column'>
           <h2>RECEPTION</h2>
@@ -104,10 +105,10 @@ class App extends Component {
             </p>
           <p> Located in Three Oaks, Michigan which is about a 10 minute drive from the Indiana and Michigan state line.Journeyman Distillery boasts some of the most unique & flavorful spirts in the Midwest.  You will be treated from a farm to table meal and be able to try all the unique spirts that Journeyman has to offer.
           </p>
-          </div>
           <p style={{textAlign: 'center'}}>
-              <a href='https://goo.gl/maps/695coch7gdM2'>Google Maps</a>
+              <a href='https://goo.gl/maps/695coch7gdM2'>Get Directions to Journeyman Distillery</a>
               </p>
+          </div>
             <p style={{ textAlign: 'center' }}>
               <a href='./assets/img/three-oaks-map.jpg'><img src={citymap} alt='Tourist Map' /></a>
               </p>
@@ -118,38 +119,23 @@ class App extends Component {
       <h2>ON THE WEDDING DAY</h2>
       <p>The ceremony will start at 2:00 PM at the St. Mary of the Lake Church. Please arrive 10 to 15 minutes before so everybody can get seated and so we can start on time.
       </p>
-      <p>After the ceremony we will raise a glass of champagne and someone will lead you to the reception where drinks and appetizers will be served.
+      <p>After the ceremony (which will last about 40 - 45 minutes because I know you all are interested in that) we will give you a few hours before greeting you all at the reception where drinks and appetizers will be served.
       </p>
       <p>
-        Wedding attire is S pring formal. Gentlemen, please wear a light suit with which you will be comfortable with the heat. And ladies,
-        you look pretty as you are, in your formal summer dresses
+        Wedding attire is Spring formal, as well! However, we're not going to give you any guidelines... hopefully you all are smart enough to know what to wear at a wedding.
       </p>
 
-      <hr />
-
-      <h2>DAY BEFORE THE WEDDING (30 August)</h2>
-      <p>Welcome cocktails will be held on the terrace of <a href='https://goo.gl/Vd3ZJd'>Restaurant Park Hvar</a> from 18:30 to 23:30.
-      </p>
-      <p>
-         Cocktail night attire is dressy-casual.
-      </p>
-
-      <hr />
+      <hr/>
 
       <h2>DAY AFTER THE WEDDING (27 May)</h2>
-      <p>Farewell brunch will be held at 11:00 at the&nbsp;
-         <a href='http://www.suncanihvar.com/amfora-hvar-grand-beach-resort/maestral-balkan-grill.html'>Maestral Restaurant</a>. It is located
-         just a few meters on the path that takes you to the <a href='https://goo.gl/r9TFHt'>wedding venue</a>.
-      </p>
-      <p>
-         Brunch attire is wear anything you want
+      <p>Farewell brunch will be held at 10:00 at the&nbsp;
+         <a href='http://www.suncanihvar.com/amfora-hvar-grand-beach-resort/maestral-balkan-grill.html'>The Sycamore Guesthouse</a>, which is located across the street from Journeyman Distillery.
+         <a href='https://goo.gl/maps/dxWu5THMYfC2'> Groom's Mansion</a>.
       </p>
         </TopicContainer>
 
-
-
         <TopicContainer id='logistics' title='Logistics'>
-      <p>We understand that going to a different State on a Holiday Weekend to attend a wedding can be a daunting experience. That's why in this section we have tried to compile information and links to help make your travel and hotel booking as simple as possible and to give you ideas for how to make a complete vacation out of your trip. Please read through it and if you feel you need any additional information or help, do not hesitate to contact us.
+          <p>We understand that going to a different State on a Holiday Weekend to attend a wedding can be a daunting experience. That's why in this section we have tried to compile information and links to help make your travel and hotel booking as simple as possible and to give you ideas for how to make a complete vacation out of your trip. Please read through it and if you feel you need any additional information or help, do not hesitate to contact us.
       </p>
 
       <hr />
