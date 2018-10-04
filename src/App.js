@@ -68,7 +68,7 @@ class App extends Component {
           It all started when Mike had a brainstorm and asked Megan if she would be willing to run the Chicago Marathon with him in the upcoming fall of 2017.  He then had another brainstorm and thought it was good idea to go hiking in Banff National Park in Alberta, Canada immediately after running 26.2 miles.  Somehow Mike was able to convince Megan that this was a good idea and his plan was in motion.
           </p>
           <p>
-          After completing the Chicago Marathon which was one of the hardest journeys of their lives they immediately took off on a flight to Canada that would change their lives forever.On the very last day of their vacation, Megan and Mike went on a 5 mile hike on the Johnston Canyon and the hike ended with canyon opening up to a huge meadow surrounded by pools of water that change colors throughout the day.  After making sure they were the only two people in the canyon valley, Mike nervously set up his iPhone to properly capture the moment.  As Megan strangley watched Mike, he got down on one knee and asked Megan to spend the rest of her life with him!
+          After completing the Chicago Marathon which was one of the hardest journeys of their lives they immediately took off on a flight to Canada that would change their lives forever.On the very last day of their vacation, Megan and Mike went on a 5 mile hike on the Johnston Canyon and the hike ended with canyon opening up to a huge meadow surrounded by pools of water that change colors throughout the day.  After making sure they were the only two people in the canyon valley, Mike nervously set up his iPhone to properly capture the moment.  As Megan strangely watched Mike, he got down on one knee and asked Megan to spend the rest of her life with him!
           </p>
           <p>
             <img src={proposal} className='large-image' alt='Mike Proposing To Megan' />
@@ -141,7 +141,7 @@ class App extends Component {
          <a href='https://goo.gl/maps/xhf5f65SdEs'>Direction from Chicago to Three Oaks, MI</a> OR &nbsp;
          <a href='https://goo.gl/maps/aRe5RDT378p'>Directions from Detroit to Three Oaks, MI</a>
       </p>
-      <p>We were able to reserve a Hotel Block at <a href='https://www.ihg.com/holidayinnexpress/hotels/us/en/new-buffalo/nbumi/hoteldetail'>Holiday Inn Express & Suites New Buffalo, MI</a>. Which is about 15 minutes drive away from Journeyman Distillery. The hotel was able to do block rate of $150.95 per room (price does not include tax and is based on 1-2 adult occupancy in the rooms) and the cut off date for the block would be March 30, 2019. Check in time starts at 3pm eastern and checkout is 11am eastern. We weren't not able to accommodate early check in for groups. The hotel do offer free WiFi, free hot breakfast buffet, have indoor pool, hot tub and fitness room.  If interested please call <strong>(269) 469-1400</strong> and use the full name of the bride and full name of the groom.
+      <p>We were able to reserve a Hotel Block at <a href='https://www.ihg.com/holidayinnexpress/hotels/us/en/new-buffalo/nbumi/hoteldetail'>Holiday Inn Express & Suites New Buffalo, MI</a>. Which is about 15 minutes drive away from Journeyman Distillery. The hotel was able to do block rate of $150.95 per room (price does not include tax and is based on 1-2 adult occupancy in the rooms) and the cut off date for the block would be March 30, 2019. Check in time starts at 3pm eastern and checkout is 11am eastern. We weren't not able to accommodate early check in for groups. The hotel do offer free WiFi, free hot breakfast buffet, have indoor pool, hot tub and fitness room.  If interested please call <a href="tel: (269) 469-1400">(269) 469-1400</a> and use the full name of the bride and full name of the groom.
       </p>
       <p>However if you are planning on doing some touring before or after the wedding or just planning a visit to Michigan's Harbor Towns over the long Holiday Weekend we encourage you to book one of the many <a href='https://www.airbnb.com/s/Three-Oaks--MI--United-States/homes?refinement_paths%5B%5D=%2Fhomes&query=Three%20Oaks%2C%20MI%2C%20United%20States&place_id=ChIJCZ-MfiUfEYgRchAXqY2I3-I&allow_override%5B%5D=&s_tag=zLwd_OZY'>Airbnb's</a> or <a href='https://www.yelp.com/search?cflt=bedbreakfast&find_loc=Three+Oaks%2C+MI+49128'>Bed and Breakfast Hotels</a> that are plentiful throughout the area. If you're undecided on what option to choose, have a look at the 'Things to do section' further down for more information for what activities you can do while you're here.
          </p>
@@ -165,22 +165,43 @@ class App extends Component {
       </p>
           <hr />
 
-     <h2>Wineries</h2>
+          <h2>Wineries</h2>
+          {/*
+            <table id="simple-board">
+              <tbody>
+            <tr id="row0">
+              <td><a href='https://www.drinkmichigan.com/index.cfm?method=pages.showpage&pageid=9041EE9F-EBCD-4C9D-959A-47410B20BE46&isMarketingURL=1'>Round Barn UNION PIER Tasting Room</a></td>
+              <td id="cell0-1"><a href='http://www.stjulian.com/unionpier'>St. Julian Winery-Union Pier</a></td>
+              <td id="cell0-2"></td>
+            </tr>
+            <tr id="row1">
+              <td id="cell1-0"></td>
+              <td id="cell1-1"></td>
+              <td id="cell1-2"></td>
+            </tr>
+            <tr id="row2">
+              <td id="cell2-0"></td>
+              <td id="cell2-1"></td>
+              <td id="cell2-2"></td>
+            </tr>
+          </tbody>
+        </table>
+          */}
           <p>
             <ul>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Round Barn UNION PIER Tasting Room</a></li>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>St. Julian Winery-Union Pier</a></li>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Lemon Creek Winery</a></li>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Shady Creek Winery</a></li>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Hickory Creek Winery</a></li>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Gravity Vineyards and Winery</a></li>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Tabor Hill Champagne Cellar</a></li>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Free Run Cellars</a></li>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Dablon Vineyards - Winery & Tasting Room</a></li>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Black Dragon Meadery @ Promeny</a></li>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Lazy Acre Vineyard</a></li>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Lazy Ballerina Winery Tasting Room</a></li>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Wolfe Creek Winery</a></li>
+              <li><a href='https://www.drinkmichigan.com/index.cfm?method=pages.showpage&pageid=9041EE9F-EBCD-4C9D-959A-47410B20BE46&isMarketingURL=1'>Round Barn UNION PIER Tasting Room</a></li>
+              <li><a href='http://www.stjulian.com/unionpier'>St. Julian Winery-Union Pier</a></li>
+              <li><a href='http://www.lemoncreekwinery.com/wordpress/'>Lemon Creek Winery</a></li>
+              <li><a href='http://www.shadycreekwinery.com/'>Shady Creek Winery</a></li>
+              <li><a href='https://www.hickorycreekwinery.com/'>Hickory Creek Winery</a></li>
+              <li><a href='http://gravitywine.com/'>Gravity Vineyards and Winery</a></li>
+              <li><a href='https://www.michiganwines.com/winery/winery_id/176'>Tabor Hill Champagne Cellar</a></li>
+              <li><a href='https://www.freeruncellars.com/'>Free Run Cellars</a></li>
+              <li><a href='https://www.dablon.com/'>Dablon Vineyards - Winery & Tasting Room</a></li>
+              <li><a href='http://www.blackdragonmeadery.com/'>Black Dragon Meadery - Mead in Michigan</a></li>
+              <li><a href='https://www.facebook.com/Lazy-Acre-Vineyard-150150435126164/'>Lazy Acre Vineyard</a></li>
+              <li><a href='https://www.lazyballerinawinery.com/'>Lazy Ballerina Winery Tasting Room</a></li>
+              <li><a href='https://www.michiganwines.com/winery/winery_id/156'>Wolfe Creek Winery</a></li>
             </ul>
           </p>
       <hr />
@@ -188,12 +209,12 @@ class App extends Component {
       <h2>Breweries</h2>
           <p>
             <ul>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Greenbush Brewing Company</a></li>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Burn 'Em Brewing</a></li>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Beer Church Brewing Co.</a></li>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Shoreline Brewery</a></li>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Watermark Brewing Company</a></li>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Zorn Brew Works Co.</a></li>
+              <li><a href='https://www.greenbushbrewing.com/'>Greenbush Brewing Company</a></li>
+              <li><a href='https://burnembrewing.com/'>Burn 'Em Brewing</a></li>
+              <li><a href='https://www.beerchurchbrewing.com/'>Beer Church Brewing Co.</a></li>
+              <li><a href='https://www.shorelinebrewery.com/'>Shoreline Brewery</a></li>
+              <li><a href='https://www.watermarkbrewing.com/'>Watermark Brewing Company</a></li>
+              <li><a href='http://zornbrewworks.com/'>Zorn Brew Works Co.</a></li>
             </ul>
       </p>
       <hr />
@@ -201,31 +222,31 @@ class App extends Component {
       <h2>Fruit Picking</h2>
           <p>
             <ul>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Stateline Blueberries</a></li>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Williams Orchard</a></li>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Blueberries of Indiana</a></li>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Twin Maple Orchards</a></li>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Shuler Dairy Farms</a></li>
+              <li><a href='https://www.statelineblueberries.com/'>Stateline Blueberries</a></li>
+              <li><a href='https://www.yelp.com/biz/williams-orchard-la-porte'>Williams Orchard</a></li>
+              <li><a href='http://www.blueberriesofindiana.com/'>Blueberries of Indiana</a></li>
+              <li><a href='https://www.twinmapleorchards.com/'>Twin Maple Orchards</a></li>
+              <li><a href='http://www.shulerdairyfarms.com/'>Shuler Dairy Farms</a></li>
             </ul>
       </p>
           <hr />
           <h2>Casinos</h2>
           <p>
             <ul>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Four Winds Casino</a></li>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Blue Chip Casino Hotel Spa</a></li>
+              <li><a href='https://www.fourwindscasino.com/'>Four Winds Casino</a></li>
+              <li><a href='https://www.bluechipcasino.com/'>Blue Chip Casino Hotel Spa</a></li>
             </ul>
       </p>
           <hr />
 
-      <h2>Beaches & Water Activites</h2>
+      <h2>Beaches & Water Activities</h2>
           <p>
             <ul>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Harbor Country Adventures</a></li>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>New Buffalo Public Beach</a></li>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Weko Park</a></li>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Third Coast Paddling Kayaks & Stand-Up Paddleboards</a></li>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Captain Mike's Fun Park</a></li>
+              <li><a href='https://harborcountryadventures.com/'>Harbor Country Adventures</a></li>
+              <li><a href='https://www.michigan.org/property/new-buffalo-lakefront-park-and-beach'>New Buffalo Public Beach</a></li>
+              <li><a href='https://www.bridgman.org/Facilities/Facility/Details/WEKO-Beach-1'>Weko Park</a></li>
+              <li><a href='http://thirdcoastpaddling.com/'>Third Coast Paddling Kayaks & Stand-Up Paddleboards</a></li>
+              <li><a href='http://www.captainmikesamusementpark.com/'>Captain Mike's Fun Park</a></li>
             </ul>
           </p>
           <hr />
@@ -233,23 +254,23 @@ class App extends Component {
       <h2>Shopping</h2>
           <p>
             <ul>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Antique Mall of Union Pier</a></li>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Harbert Antique Mall</a></li>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Sawyer Antique Mall</a></li>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Lighthouse Place Premium Outlets</a></li>
+              <li><a href='https://www.tripadvisor.com/ShowUserReviews-g42774-d278903-r321533492-Antique_Mall_of_Union_Pier-Union_Pier_Berrien_County_Michigan.html'>Antique Mall of Union Pier</a></li>
+              <li><a href='https://www.yelp.com/biz/harbert-antique-mall-lakeside
+'>Harbert Antique Mall</a></li>
+              <li><a href='http://www.sawyer-antiques.com/'>Sawyer Antique Mall</a></li>
+              <li><a href='https://www.premiumoutlets.com/outlet/lighthouse-place'>Lighthouse Place Premium Outlets</a></li>
             </ul>
           </p>
           <hr />
       <h2>Hiking & Camping</h2>
           <p>
             <ul>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Galien River County Park</a></li>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Warren Dunes State Park</a></li>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Kesling Nature Preserve</a></li>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Warren Woods State Park</a></li>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Spicer Lake County Park</a></li>
+              <li><a href='http://www.berriencounty.org/1297/Galien-River-County-Park'>Galien River County Park</a></li>
+              <li><a href='https://www.michigan.org/property/warren-dunes-state-park'>Warren Dunes State Park</a></li>
+              <li><a href='http://swmlc.org/project/kesling-nature-preserve/'>Kesling Nature Preserve</a></li>
+              <li><a href='https://www.michigan.org/property/warren-woods-state-park'>Warren Woods State Park</a></li>
+              <li><a href='http://naturepreserves.ohiodnr.gov/mudlakebog'>Spicer Lake County Park</a></li>
               <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>Mud Lake Bog Nature Preserve</a></li>
-              <li><a href='http://www.jadrolinija.hr/en/ferry-croatia'>New Buffalo Public Beach</a></li>
             </ul>
       </p>
 
