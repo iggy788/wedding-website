@@ -14,9 +14,20 @@
 
     <base target="_blank">
 
-    <script src="js/dialogtech.js"></script>
+    <script src="../src/assets/js/bundle.js"></script>
 
-    <script async src='https://www.google-analytics.com/analytics.js'></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-66058038-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-66058038-1');
+    </script>
 
     <script type="text/javascript">
         var _stk = "8ec91f7b8681922381f33b470379db97292e15d0";
@@ -42,7 +53,7 @@
 
     <div id="content"></div>
 
-    <script src="js/bundle.js"></script>
+    <!-- <script src="js/bundle.js"></script> -->
 
 
 </body>
