@@ -55,7 +55,9 @@ class App extends Component {
               <div className='one-half column'>
                 <p>
                   <a href='./assets/img/mike-baby.jpg'><img className='thumbnail' src={mike} alt='Mike' /></a>
-                  Mike is a burly and impatient Eastern European. He moved from his homeland Bulgaria to the lovely city of Toronto at the young and tender age of 22. Kal then found himself in the IT mecca of Seattle and realized after 9 years of the beautiful mountain backdrop and serene lakes that he needs to escape to the center of the universe, New York.
+                  Mike is a compassionate person who truly tries to help everyone he meets.If there is ever a time when you need him he 'll be there for anything and tell you other how great of a person you are and your qualities that he likes about you. He is someone who loves to learn about new things and always likes to challenge himself because he doesn’t settle for complacency.  It makes Megan'
+                  s life a bit challenging but in the end he push her to be ambitious and
+                  try things she never thought she would(like running a marathon).
                   </p>
               </div>
             </div>
