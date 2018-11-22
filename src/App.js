@@ -48,7 +48,7 @@ class App extends Component {
                 <p>
                   <a href='./assets/img/megan-baby.jpg'><img src={megan} className='thumbnail' alt='Megan' />
                   </a>
-                  Megan is a sweet and giving girl who always sees the beauty in life. As exciting as it was to be raised in Novi, MI. She made the decision after graduating a second time from Michigan State University, to move to Chicago and work on improving the lives of children with communication disorders.  Megan decided to also make it her mission to try and contain Mike's crazy ideas and ake sure he doesn't become overly ambitious.  Megan has the most beautiful personality and if your funny enough, you may even get to hear her amazing laugh.
+                  Megan is a sweet and giving girl who always sees the beauty in life. As exciting as it was to be raised in Novi, MI. She made the decision after graduating a second time from Michigan State University, to move to Chicago and work on improving the lives of children with communication disorders.  Megan decided to also make it her mission to try and contain Mike's crazy ideas and make sure he doesn't become overly ambitious.  Megan has the most beautiful personality and if your funny enough, you may even get to hear her amazing laugh.
                   </p>
               </div>
 
