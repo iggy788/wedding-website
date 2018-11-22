@@ -567,11 +567,11 @@ img.location-image {
     }
 
     .titlebar .bride-name {
-        font-size: 8.8em;
+        font-size: 6em;
     }
 
     .titlebar .groom-name {
-        font-size: 4em;
+        font-size: 6em;
     }
 
     .titlebar .wedding-date {
@@ -592,7 +592,7 @@ img.location-image {
 @media (max-width: 600px) {
     body {
         background-image: url('../img/bgimage.jpg');
-        background-size: 140%;
+        /* background-size: 140%; */
     }
 
     h1 {
@@ -646,6 +646,7 @@ img.location-image {
 /* Phone */
 @media (max-width: 400px) {
     body {
-        background-size: 360%;
+        background-image: url('../img/bgimage.jpg');
+        /* background-size: 360%; */
     }
 }

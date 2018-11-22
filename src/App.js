@@ -48,16 +48,14 @@ class App extends Component {
                 <p>
                   <a href='./assets/img/megan-baby.jpg'><img src={megan} className='thumbnail' alt='Megan' />
                   </a>
-                  Megan is a sweet and giving girl who always sees the beauty in people. As exciting as it was to be raised in Novi, MI. She made it her mission to live and explore as many beautiful cities as she could. Thanks to her beloved sister Wendy it was possible to jump from the neon nights of Miami, through the diverse city of London, to then learn the leisurely ways of Italy. While Jocelyn was exploring and realizing her passion in life, she realized she needed to find her way back to the city she knew her dream job was waiting for her in fashion.
+                  Megan is a sweet and giving girl who always sees the beauty in life. As exciting as it was to be raised in Novi, MI. She made the decision after graduating a second time from Michigan State University, to move to Chicago and work on improving the lives of children with communication disorders.  Megan decided to also make it her mission to try and contain Mike's crazy ideas and ake sure he doesn't become overly ambitious.  Megan has the most beautiful personality and if your funny enough, you may even get to hear her amazing laugh.
                   </p>
               </div>
 
               <div className='one-half column'>
                 <p>
                   <a href='./assets/img/mike-baby.jpg'><img className='thumbnail' src={mike} alt='Mike' /></a>
-                  Mike is a compassionate person who truly tries to help everyone he meets.If there is ever a time when you need him he 'll be there for anything and tell you other how great of a person you are and your qualities that he likes about you. He is someone who loves to learn about new things and always likes to challenge himself because he doesn’t settle for complacency.  It makes Megan'
-                  s life a bit challenging but in the end he push her to be ambitious and
-                  try things she never thought she would(like running a marathon).
+                  Mike is a compassionate person who truly tries to help everyone he meets.If there is ever a time when you need him he 'll be there for anything and tell you other how great of a person you are and your qualities that he likes about you. He is someone who loves to learn about new things and always likes to challenge himself because he doesn't settle for complacency.  It makes Megan's life a bit challenging but in the end he pushes her to be ambitious and try things she never thought she would (like running a marathon).
                   </p>
               </div>
             </div>
@@ -70,7 +68,7 @@ class App extends Component {
           It all started when Mike had a brainstorm and asked Megan if she would be willing to run the Chicago Marathon with him in the upcoming fall of 2017.  He then had another brainstorm and thought it was good idea to go hiking in Banff National Park in Alberta, Canada immediately after running 26.2 miles.  Somehow Mike was able to convince Megan that this was a good idea and his plan was in motion.
           </p>
           <p>
-          After completing the Chicago Marathon which was one of the hardest journeys of their lives they immediately took off on a flight to Canada that would change their lives forever.On the very last day of their vacation, Megan and Mike went on a 5 mile hike on the Johnston Canyon and the hike ended with canyon opening up to a huge meadow surrounded by pools of water that change colors throughout the day.  After making sure they were the only two people in the canyon valley, Mike nervously set up his iPhone to properly capture the moment.  As Megan strangely watched Mike, he got down on one knee and asked Megan to spend the rest of her life with him!
+          After completing the Chicago Marathon which was one of the hardest journeys of their lives they immediately took off on a flight to Canada that would change their lives forever. On the very last day of their vacation, Megan and Mike went on a 5 mile hike on the Johnston Canyon and the hike ended with canyon opening up to a huge meadow surrounded by pools of water that change colors throughout the day.  After making sure they were the only two people in the canyon valley, Mike nervously set up his iPhone to properly capture the moment.  As Megan strangely watched Mike, he got down on one knee and asked Megan to spend the rest of her life with him!
           </p>
           <p>
             <img src={proposal} className='large-image' alt='Mike Proposing To Megan' />
@@ -101,35 +99,34 @@ class App extends Component {
             </p>
               <p style={{ textAlign: 'center' }}>
             </p>
-          <p> Located in Three Oaks, Michigan which is about a 10 minute drive from the Indiana and Michigan state line.Journeyman Distillery boasts some of the most unique & flavorful spirts in the Midwest.  You will be treated from a farm to table meal and be able to try all the unique spirts that Journeyman has to offer.
+          <p> Located in Three Oaks, Michigan which is just 75 miles east from Chicago, 30 miles west of South Bend, and 75 miles south of Kalamazoo. Journeyman Distillery boasts some of the most unique & flavorful spirts in the Midwest.  You will be treated from a farm to table meal and be able to try all the unique spirts that Journeyman has to offer.
           </p>
           <p style={{textAlign: 'center'}}>
               <a href='https://goo.gl/maps/695coch7gdM2'>Get Directions to Journeyman Distillery</a>
               </p>
           </div>
             <p style={{ textAlign: 'center' }}>
-              <a href='./assets/img/three-oaks-map.jpg'><img src={citymap} alt='Tourist Map' /></a>
+              <a href='./assets/img/three-oaks-map.jpg'><img className='large-image' src={citymap} alt='Tourist Map' /></a>
               </p>
         </div>
 
       <hr />
 
-      <h2>ON THE WEDDING DAY</h2>
+      <h2>WEDDING CEREMONY</h2>
       <p>The ceremony will start at 2:00 PM at the St. Mary of the Lake Church. Please arrive 10 to 15 minutes before so everybody can get seated and so we can start on time.
       </p>
       <p>After the ceremony (which will last about 40 - 45 minutes because I know you all are interested in that) we will give you a few hours before greeting you all at the reception where drinks and appetizers will be served.
       </p>
-      <p>
-        Wedding attire is Spring formal, as well! However, we're not going to give you any guidelines... hopefully you all are smart enough to know what to wear at a wedding.
-      </p>
 
       <hr/>
 
-      <h2>DAY AFTER THE WEDDING (27 May)</h2>
-      <p>Farewell brunch will be held at 10:00 at the&nbsp;
-         <a href='http://www.suncanihvar.com/amfora-hvar-grand-beach-resort/maestral-balkan-grill.html'>The Sycamore Guesthouse</a>, which is located across the street from Journeyman Distillery.
-         <a href='https://goo.gl/maps/dxWu5THMYfC2'> Groom's Mansion</a>.
-      </p>
+      <h2>WEDDING RECEPTION</h2>
+      <p>The reception will be held at 6:00 PM at Journey Distillery in&nbsp;
+         <a href='https://www.journeymandistillery.com/warren-hall/'>Warren Hall</a>, located on the second floor of  Journeyman Distillery.  Here in the quaint village of Three Oaks, Michigan, in what once was the Featherbone Factory, you will finally get a chance to celebrate with Megan and Mike.
+         </p>
+         <p>
+            A destination like no other, Journeyman provides a vintage industrial venue with an updated modern aesthetic.  Makers of hand - crafted, organic whiskey and spirits distilled, we invite you to watch a short video to get yourself a bit more excited about the trying some of the most unique & flavorful spirts in the Midwest!  <a href='https://vimeo.com/38956218'> Yeah Click Here for the Video</a>.
+          </p>
         </TopicContainer>
 
         <TopicContainer id='logistics' title='Logistics'>
