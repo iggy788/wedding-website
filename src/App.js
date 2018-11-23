@@ -45,17 +45,19 @@ class App extends Component {
           <div className='container'>
             <div className='row'>
               <div className='one-half column'>
-                <p>
+              <p>
+              <h3>From Mike:</h3>
                   <a href='./assets/img/megan-baby.jpg'><img src={megan} className='thumbnail' alt='Megan' />
                   </a>
-                  Megan is a sweet and giving girl who always sees the beauty in life. As exciting as it was to be raised in Novi, MI. She made the decision after graduating a second time from Michigan State University, to move to Chicago and work on improving the lives of children with communication disorders.  Megan decided to also make it her mission to try and contain Mike's crazy ideas and make sure he doesn't become overly ambitious.  Megan has the most beautiful personality and if your funny enough, you may even get to hear her amazing laugh.
+                  Most of you know Megan for her affectionate personality and her amazing laugh.  Not only do I get to experience those things on a daily basis, but I also get to see the sweet and giving girl who always sees the beauty in life. I don't know how I ever convinced her to move to Chicago, but I'm so glad she did.  Not only am I extremely proud that she has dedicated her life to improving the lives of children with communication disorders. I am also extremely thankful that Megan decided come along with me on the crazy adventures we get into, even if some of them are a result of my irrational thinking.  Megan means the world to me and has the most beautiful and caring personality I have ever seen in someone.  I hope you all get to experience it at least once in your life and if your funny enough, you may even get to hear her amazing laugh.
                   </p>
               </div>
 
               <div className='one-half column'>
                 <p>
+                  <h3>From Megan:</h3>
                   <a href='./assets/img/mike-baby.jpg'><img className='thumbnail' src={mike} alt='Mike' /></a>
-                  Mike is a compassionate person who truly tries to help everyone he meets.If there is ever a time when you need him he 'll be there for anything and tell you other how great of a person you are and your qualities that he likes about you. He is someone who loves to learn about new things and always likes to challenge himself because he doesn't settle for complacency.  It makes Megan's life a bit challenging but in the end he pushes her to be ambitious and try things she never thought she would (like running a marathon).
+                  What can I say? Mike is wonderful and kind. He grew up in Park Ridge, Illinois and thankfully, made the decision to go to college at Michigan State University (<a href='https://www.youtube.com/watch?v=Dqv48MwEbaQ'>Go Green!</a>). We first met each other in Armstrong Hall and started dating in 2011. 7 years later (including a move to Chicago) and we've already accomplished so much. Mike has managed to work his way up to a position at DialogTech, where he worked to make custom projects for clients and has learned lots about coding from attending the Northwestern Coding Bootcamp. Throughout our time together, Mike has grown into a hardworking, passionate and caring person. I'm so lucky.
                   </p>
               </div>
             </div>
@@ -65,10 +67,10 @@ class App extends Component {
 
           <h2>OUR STORY</h2>
           <p>
-          It all started when Mike had a brainstorm and asked Megan if she would be willing to run the Chicago Marathon with him in the upcoming fall of 2017.  He then had another brainstorm and thought it was good idea to go hiking in Banff National Park in Alberta, Canada immediately after running 26.2 miles.  Somehow Mike was able to convince Megan that this was a good idea and his plan was in motion.
+          Our engagement story begins in May of 2017 when Mike came home one day stating that he was running the Chicago Marathon (thanks to Jim Borgaard) with Ronald McDonald House Charities. Megan could never let Mike run a marathon without her, and before they knew it they were both signed up for a summer of training and a big 26.2 jog on October 8th, 2017.
           </p>
           <p>
-          After completing the Chicago Marathon which was one of the hardest journeys of their lives they immediately took off on a flight to Canada that would change their lives forever. On the very last day of their vacation, Megan and Mike went on a 5 mile hike on the Johnston Canyon and the hike ended with canyon opening up to a huge meadow surrounded by pools of water that change colors throughout the day.  After making sure they were the only two people in the canyon valley, Mike nervously set up his iPhone to properly capture the moment.  As Megan strangely watched Mike, he got down on one knee and asked Megan to spend the rest of her life with him!
+          After the little jog, Mike had planned a vacation to Banff in Alberta, Canada...perfect time for a vacation filled with hiking after a marathon! Ha! Regardless, on the last hike on the last day of their trip...Mike Proposed!
           </p>
           <p>
             <img src={proposal} className='large-image' alt='Mike Proposing To Megan' />
@@ -79,13 +81,20 @@ class App extends Component {
           <div className='container'>
             <div className='one-half column'>
               <h2>CEREMONY</h2>
-              <p>2:00 PM @ St Mary of the Lake Church</p>
+              {/*
+                <p>2:00 PM @ St Mary of the Lake Church</p>
+              */}
+              <p>St Mary of the Lake Church</p>
               <p>
                 <a href='./assets/img/church.jpg'><img src={church} className='location-image' alt='St Mary of the Lake Church' /></a>
               </p>
               <p style={{ textAlign: 'center' }}>
           </p>
-          <p>Located , in New Buffalo, Michigan which is about a 15 minute drive from Journeyman Distillery.  The church is US Highway 12, about 7 blocks west (and south) of the center of town. Also click on the link below to easily find directions to the church.
+    {/**
+      <p>Located , in New Buffalo, Michigan which is about a 15 minute drive from Journeyman Distillery.  The church is US Highway 12, about 7 blocks west (and south) of the center of town. Also click on the link below to easily find directions to the church.
+  </p>
+     */}
+              <p>The Ceremony will be performed at St. Mary of the Lake church, in New Buffalo, Michigan, which is just a 12 minute drive from Journeyman Distillery.
           </p>
               <p style={{textAlign: 'center'}}>
               <a href='https://goo.gl/maps/nY3cvNcVZ8T2'>Get Directions to St Mary of the Lake Church</a>
@@ -93,27 +102,26 @@ class App extends Component {
         </div>
         <div className='one-half column'>
           <h2>RECEPTION</h2>
-          <p>6:00 PM @ Journeyman Distillery</p>
+          <p>Journeyman Distillery</p>
           <p>
             <a href='./assets/img/location.jpg'><img className='location-image' src={journeyman} alt='Journeyman Distillery' /></a>
             </p>
               <p style={{ textAlign: 'center' }}>
-            </p>
-          <p> Located in Three Oaks, Michigan which is just 75 miles east from Chicago, 30 miles west of South Bend, and 75 miles south of Kalamazoo. Journeyman Distillery boasts some of the most unique & flavorful spirts in the Midwest.  You will be treated from a farm to table meal and be able to try all the unique spirts that Journeyman has to offer.
+              </p>
+          <p> Located in Three Oaks, Michigan which is just 75 miles east from Chicago, 30 miles west of South Bend, and 75 miles south of Kalamazoo.
           </p>
           <p style={{textAlign: 'center'}}>
               <a href='https://goo.gl/maps/695coch7gdM2'>Get Directions to Journeyman Distillery</a>
               </p>
           </div>
+          </div>
             <p style={{ textAlign: 'center' }}>
               <a href='./assets/img/three-oaks-map.jpg'><img className='large-image' src={citymap} alt='Tourist Map' /></a>
               </p>
-        </div>
-
       <hr />
 
       <h2>WEDDING CEREMONY</h2>
-      <p>The ceremony will start at 2:00 PM at the St. Mary of the Lake Church. Please arrive 10 to 15 minutes before so everybody can get seated and so we can start on time.
+      <p>The ceremony will be at the St. Mary of the Lake Church. Please arrive 10 to 15 minutes before so everybody can get seated.
       </p>
       <p>After the ceremony (which will last about 40 - 45 minutes because I know you all are interested in that) we will give you a few hours before greeting you all at the reception where drinks and appetizers will be served.
       </p>
@@ -121,28 +129,28 @@ class App extends Component {
       <hr/>
 
       <h2>WEDDING RECEPTION</h2>
-      <p>The reception will be held at 6:00 PM at Journey Distillery in&nbsp;
-         <a href='https://www.journeymandistillery.com/warren-hall/'>Warren Hall</a>, located on the second floor of  Journeyman Distillery.  Here in the quaint village of Three Oaks, Michigan, in what once was the Featherbone Factory, you will finally get a chance to celebrate with Megan and Mike.
+      <p>The reception will be held at Journeyman Distillery in beautiful &nbsp;
+         <a href='https://www.journeymandistillery.com/warren-hall/'>Warren Hall</a> on the second floor, in Three Oaks, Michigan. Journeyman Distillery was once a Featherbone Factory and has since transformed itself into a beautiful and vintage industrial venue.
          </p>
          <p>
-            A destination like no other, Journeyman provides a vintage industrial venue with an updated modern aesthetic.  Makers of hand - crafted, organic whiskey and spirits distilled, we invite you to watch a short video to get yourself a bit more excited about the trying some of the most unique & flavorful spirts in the Midwest!  <a href='https://vimeo.com/38956218'> Yeah Click Here for the Video</a>.
+            Journeyman Distillery is also home to makers of hand-crafted, organic whiskey and spirits. Feel free to watch this short video to gain more information about the unique and flavorful spirits! <a href='https://vimeo.com/38956218'> Yeah Click Here for the Video</a>.
           </p>
         </TopicContainer>
 
         <TopicContainer id='logistics' title='Logistics'>
-          <p>We understand that going to a different State on a Holiday Weekend to attend a wedding can be a daunting experience. That's why in this section we have tried to compile information and links to help make your travel and hotel booking as simple as possible and to give you ideas for how to make a complete vacation out of your trip. Please read through it and if you feel you need any additional information or help, do not hesitate to contact us.
-      </p>
+          <p>
+            We have compiled information and links to help make your travel and hotel booking as simple as possible on this holiday weekend. Please read through it and if you feel you need any additional information or help, do not hesitate to contact us!
+          </p>
 
       <hr />
 
       <h2>ACCOMMODATIONS NEAR JOURNEYMAN DISTILLERY</h2>
-      <p>Being a popular summer tourist destination, getting to Three Oaks is relatively easy when traveling from Michigan or Illinois. &nbsp;
-         <a href='https://goo.gl/maps/xhf5f65SdEs'>Direction from Chicago to Three Oaks, MI</a> OR &nbsp;
-         <a href='https://goo.gl/maps/aRe5RDT378p'>Directions from Detroit to Three Oaks, MI</a>
+      <p>Because it is a popular tourist destination, getting to Three Oaks and the New Buffalo, MI area is relatively easy when traveling from Michigan or Illinois. Here are directions from&nbsp;
+        <a href='https://goo.gl/maps/xhf5f65SdEs'>Chicago to Three Oaks, MI</a> as well as directions from&nbsp;<a href='https://goo.gl/maps/aRe5RDT378p'>Detroit to Three Oaks, MI</a>
       </p>
-      <p>We were able to reserve a Hotel Block at <a href='https://www.ihg.com/holidayinnexpress/hotels/us/en/new-buffalo/nbumi/hoteldetail'>Holiday Inn Express & Suites New Buffalo, MI</a>. Which is about 15 minutes drive away from Journeyman Distillery. The hotel was able to do block rate of $150.95 per room (price does not include tax and is based on 1-2 adult occupancy in the rooms) and the cut off date for the block would be March 30, 2019. Check in time starts at 3pm eastern and checkout is 11am eastern. We weren't not able to accommodate early check in for groups. The hotel do offer free WiFi, free hot breakfast buffet, have indoor pool, hot tub and fitness room.  If interested please call <a href="tel: (269) 469-1400">(269) 469-1400</a> and use the full name of the bride and full name of the groom.
+      <p>We were able to reserve a hotel block at <a href='https://www.ihg.com/holidayinnexpress/hotels/us/en/new-buffalo/nbumi/hoteldetail'>Holiday Inn Express & Suites New Buffalo, MI</a>. This hotel is about a 15 minutes drive away from Journeyman Distillery. We were able to book a block rate for Saturday May 25th at $150.95 and for Sunday May 26th for $109.95 per room. This rate does not include tax and is based on 1-2 adult occupancy in the rooms. The cut off date for the block is March 30th 2019. Check in time begins at 3 PM EST and checkout is 11 AM EST. The hotel offers free WiFi, free hot breakfast buffet, an indoor pool, hot tub and a fitness room.  If interested please call <a href="tel: (269) 469-1400">(269) 469-1400</a> and use the full name of the bride and full name of the groom.
       </p>
-      <p>However if you are planning on doing some touring before or after the wedding or just planning a visit to Michigan's Harbor Towns over the long Holiday Weekend we encourage you to book one of the many <a href='https://www.airbnb.com/s/Three-Oaks--MI--United-States/homes?refinement_paths%5B%5D=%2Fhomes&query=Three%20Oaks%2C%20MI%2C%20United%20States&place_id=ChIJCZ-MfiUfEYgRchAXqY2I3-I&allow_override%5B%5D=&s_tag=zLwd_OZY'>Airbnb's</a> or <a href='https://www.yelp.com/search?cflt=bedbreakfast&find_loc=Three+Oaks%2C+MI+49128'>Bed and Breakfast Hotels</a> that are plentiful throughout the area. If you're undecided on what option to choose, have a look at the 'Things to do section' further down for more information for what activities you can do while you're here.
+      <p>If you are planning on visiting the area over the long holiday weekend, we encourage you to book one of the many <a href='https://www.airbnb.com/s/Three-Oaks--MI--United-States/homes?refinement_paths%5B%5D=%2Fhomes&query=Three%20Oaks%2C%20MI%2C%20United%20States&place_id=ChIJCZ-MfiUfEYgRchAXqY2I3-I&allow_override%5B%5D=&s_tag=zLwd_OZY'>Airbnb's</a> or <a href='https://www.yelp.com/search?cflt=bedbreakfast&find_loc=Three+Oaks%2C+MI+49128'>Bed and Breakfast Hotels</a> that are found throughout the area. If you need ideas on what to do in the area, take a look below for more information for what activities you can do while you're here.
          </p>
       <hr />
 
@@ -150,7 +158,7 @@ class App extends Component {
 
         <TopicContainer id='thingstodo' title='Things to do Near Three Oaks, MI'>
         <h2><a href='https://www.michigan.org/hot-spots/beachtowns'>MICHIGAN BEACHTOWNS</a></h2>
-      <p> Since all of you are coming from different parts of the Midwest, we presume that you would like to take full advantage and experience the "Lake Effect" and dig in the sand anywhere along the 200 - mile stretch of Lake Michigan Beaches.In this section we are listing some of the main tourist places to visit and have suggestions for routes to take. As a disclaimer, some of these suggestions are compiled from various online sources not locations we have actually visited, but trust us - these are all awesome options if you wanted to spend Memorial Day Weekend relaxing in Michigan's Beachtowns before our Big Day!
+      <p>Feel free to take full advantage and experience the "Lake Effect" of the 200  — mile stretch of Lake Michigan Beaches. We haven't personally visited all of these locations, but they are all awesome options if you want to spend Memorial Day weekend relaxing in Michigan's Beachtowns before our Big Day!
       </p>
       <br />
 
@@ -278,8 +286,7 @@ class App extends Component {
 
         <TopicContainer id='gifts' title='Gifts'>
       <p>Dear family and friends,</p>
-          <p>I know locating a couple's wedding registry and worrying about finding the perfect gift can be stressful, trust me we've all been there. For this reason we want to put it all in one spot so please click on this link to access our
-                <a href='https://www.zola.com/registry/michaelandmeganwedding?preview=true'> Registry.</a>
+          <p>If you wish to access our<a href='https://www.zola.com/registry/michaelandmeganwedding?preview=true'> Registry</a>, please click on this<a href='https://www.zola.com/registry/michaelandmeganwedding?preview=true'> link</a>.
       </p>
       <p>Thank you in advance!
       </p>
